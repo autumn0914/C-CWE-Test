@@ -183,7 +183,7 @@ void bad_free_fn2() {
 }
 
 void command_inj_bug(int socket) {
-    char message[1024];
+    char message[2048];
     if (recv(socket, message, sizeof(message), 0) > 0) {
         system(message);       // OS_CMD_INJECTION defect 
     }
