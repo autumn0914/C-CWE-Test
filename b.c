@@ -54,8 +54,9 @@ int example(int a, int b, int x, int y) {
 
    // int val = 5;
    // int iZero = 0;
-    //int zeTest = 5/0;
- 
+   //int zeTest = 5/0;
+
+   // divided by zero
    float nn = 0.0;
    float mm = 4.0;
    float fb = 1.0/nn;
