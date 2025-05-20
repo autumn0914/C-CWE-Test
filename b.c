@@ -32,8 +32,7 @@ int main()
     // calls Division function
     result = Division(numerator, denominator);
 
-
-	return 1;
+    return 1;
 }
 
 
@@ -104,7 +103,7 @@ void overrun_test2() {
         p[i] = s1;  // Defect: overrun of buffer p
     //int *pt = myIntArraryMalloc(10);
     //pt[1] = 1;
-    //free(pt);
+    free(pt);
 
 }
 
