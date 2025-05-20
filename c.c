@@ -25,5 +25,6 @@ int main()
 	else
 		printf("Success\n");
 
+	total = i;
 	return 0;
 }
