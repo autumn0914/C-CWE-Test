@@ -61,6 +61,8 @@ int main()
 		case 90:
 			printf("90\n");
 			break;
+		case 120:
+			printf("120\n");
 		default:
 			break;
 	}
